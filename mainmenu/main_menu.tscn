@@ -5,15 +5,21 @@
 
 [sub_resource type="SystemFont" id="SystemFont_ouw82"]
 font_names = PackedStringArray("Rockwell")
+subpixel_positioning = 0
 
 [sub_resource type="SystemFont" id="SystemFont_fq3m3"]
 font_names = PackedStringArray("Rockwell")
+subpixel_positioning = 0
 
 [node name="Main_Menu" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = 1.0
+offset_top = 2.0
+offset_right = 1.0
+offset_bottom = 2.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_kfcbu")

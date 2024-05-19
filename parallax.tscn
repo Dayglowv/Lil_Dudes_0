@@ -1,9 +1,6 @@
-[gd_scene load_steps=5 format=3 uid="uid://deq1sctonmkcc"]
+[gd_scene load_steps=2 format=3 uid="uid://ccwi5u28y3sim"]
 
-[ext_resource type="Texture2D" uid="uid://bd8y01kclalfg" path="res://grey_cloudy_sky_background_pixel_art_by_gabruele_d6796mq-fullview.jpg" id="1_4xe8g"]
-[ext_resource type="Texture2D" uid="uid://b2e33umwtmmw5" path="res://image-removebg-preview (3).png" id="2_dt474"]
-[ext_resource type="Texture2D" uid="uid://dlcowxagcbhxp" path="res://127125-pixel-art-pixelated-pixels-digital-art-Stardew-Valley-clouds-mountains-forest-flamingos-landscape-removebg-preview.png" id="3_dxqpw"]
-[ext_resource type="Texture2D" uid="uid://u2w5up3p1j38" path="res://ddshutter230800027-removebg-preview.png" id="4_5qumk"]
+[ext_resource type="Texture2D" path="res://grey_cloudy_sky_background_pixel_art_by_gabruele_d6796mq-fullview.jpg" id="1_4xe8g"]
 
 [node name="Parallax" type="Node2D"]
 
@@ -18,18 +15,3 @@ position = Vector2(-3, -84.5)
 scale = Vector2(0.516115, 0.502357)
 texture = ExtResource("1_4xe8g")
 centered = false
-
-[node name="Image-removebg-preview(3)" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
-position = Vector2(133, 14.5)
-scale = Vector2(0.363669, 0.31414)
-texture = ExtResource("2_dt474")
-
-[node name="127125-pixel-art-pixelated-pixels-digital-art-stardew-valley-clouds-mountains-forest-flamingos-landscape-removebg-preview" type="Sprite2D" parent="."]
-position = Vector2(161, 91)
-scale = Vector2(0.479138, 0.479138)
-texture = ExtResource("3_dxqpw")
-
-[node name="Ddshutter230800027-removebg-preview" type="Sprite2D" parent="."]
-position = Vector2(165, 137)
-scale = Vector2(0.490875, 0.30303)
-texture = ExtResource("4_5qumk")
