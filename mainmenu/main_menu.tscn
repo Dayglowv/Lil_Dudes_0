@@ -1,7 +1,6 @@
-[gd_scene load_steps=4 format=3 uid="uid://gwu0e6ugavbd"]
+[gd_scene load_steps=3 format=3 uid="uid://gwu0e6ugavbd"]
 
 [ext_resource type="Texture2D" uid="uid://rat32lixqxrt" path="res://Assets/Background/360_F_572735076_wgfCpOZOiow9U83kpA6SuGInOKCTPi07.jpg" id="1_8poyj"]
-[ext_resource type="Script" path="res://mainmenu/main_menu.gd" id="1_kfcbu"]
 
 [sub_resource type="SystemFont" id="SystemFont_ouw82"]
 font_names = PackedStringArray("Rockwell")
@@ -18,7 +17,6 @@ offset_right = 1.0
 offset_bottom = 2.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_kfcbu")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 1
