@@ -3,6 +3,8 @@ extends CharacterBody2D
 @export var SPEED : int = 150
 @export var JUMP_FORCE : int = 300
 @export var GRAVITY : int = 900
+
+var is_speed = false
 func _physics_process(delta):
 	
 	var direction = Input.get_axis("Left", "Right")

@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://t30nkfsbsaq1"]
+[gd_scene load_steps=7 format=3 uid="uid://cgi8iy827t1f1"]
 
 [ext_resource type="Texture2D" uid="uid://j3rce3qs7fvg" path="res://Level1/1.png" id="1_kx853"]
 [ext_resource type="Texture2D" uid="uid://lebcvu6y5n0a" path="res://Level1/2-removebg.png" id="2_bvcjb"]
@@ -165,7 +165,7 @@ texture = ExtResource("4_snyke")
 [sub_resource type="TileSet" id="TileSet_db7pn"]
 sources/0 = SubResource("TileSetAtlasSource_1u7me")
 
-[node name="Level 2" type="Node2D"]
+[node name="Level 1" type="Node2D"]
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 

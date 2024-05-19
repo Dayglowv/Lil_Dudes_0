@@ -1,10 +1,11 @@
-[gd_scene load_steps=10 format=3 uid="uid://bkaq2d0b4siq5"]
+[gd_scene load_steps=11 format=3 uid="uid://ddaro78ilmwnr"]
 
 [ext_resource type="PackedScene" uid="uid://dit7frla46bek" path="res://Assets/Player/player.tscn" id="1_vlh5s"]
 [ext_resource type="Texture2D" uid="uid://j3rce3qs7fvg" path="res://Level1/1.png" id="2_du5et"]
 [ext_resource type="Texture2D" uid="uid://lebcvu6y5n0a" path="res://Level1/2-removebg.png" id="3_pxkit"]
 [ext_resource type="Texture2D" uid="uid://bndkrpldbhl51" path="res://Level1/Untitled_design__1_-removebg.png" id="4_wel1q"]
 [ext_resource type="Texture2D" uid="uid://dhm0b7aqqcaft" path="res://Level1/Free/Terrain/Terrain (16x16).png" id="5_2hmcs"]
+[ext_resource type="PackedScene" uid="uid://dwwn6ed5msnnd" path="res://speed_powerup.tscn" id="6_ixrri"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_ddmg6"]
 rough = true
@@ -548,3 +549,7 @@ texture_filter = 1
 scale = Vector2(2, 2)
 tile_set = SubResource("TileSet_db7pn")
 format = 2
+
+[node name="speed powerup" parent="." instance=ExtResource("6_ixrri")]
+position = Vector2(952, 411)
+scale = Vector2(0.422222, 0.422222)
