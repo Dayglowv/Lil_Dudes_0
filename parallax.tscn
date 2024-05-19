@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://deq1sctonmkcc"]
+
+[ext_resource type="Texture2D" uid="uid://bd8y01kclalfg" path="res://grey_cloudy_sky_background_pixel_art_by_gabruele_d6796mq-fullview.jpg" id="1_4xe8g"]
+
+[node name="Parallax" type="Node2D"]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+texture_filter = 1
+position = Vector2(-1, 81.5)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2(-3, -84.5)
+scale = Vector2(0.516115, 0.502357)
+texture = ExtResource("1_4xe8g")
+centered = false
