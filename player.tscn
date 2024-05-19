@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=3 uid="uid://dit7frla46bek"]
 
-[ext_resource type="Script" path="res://defaultplayer.gd" id="1_srbip"]
+[ext_resource type="Script" path="res://player.gd" id="1_dgg2q"]
 [ext_resource type="Texture2D" uid="uid://c1i66wn62u74o" path="res://Character Movement/Left/Screenshot_2024-05-18_at_6.52.06_PM-removebg-preview.png" id="1_v68ai"]
 [ext_resource type="Texture2D" uid="uid://bsbpppxvk8yjw" path="res://Character Movement/Idle/Screenshot_2024-05-19_at_11.37.49_AM-removebg-preview.png" id="2_1ig8f"]
 [ext_resource type="Texture2D" uid="uid://dtnoyqutfrpy7" path="res://Character Movement/Left/Screenshot_2024-05-18_at_6.52.11_PM-removebg-preview.png" id="2_rt3iy"]
@@ -44,12 +44,12 @@ animations = [{
 size = Vector2(316, 380)
 
 [node name="Player" type="CharacterBody2D"]
-script = ExtResource("1_srbip")
+script = ExtResource("1_dgg2q")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_m2r7w")
 animation = &"Idle"
-frame_progress = 0.887336
+frame_progress = 0.19486
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-6, -4)

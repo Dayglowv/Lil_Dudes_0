@@ -1,9 +1,14 @@
-[gd_scene load_steps=3 format=3 uid="uid://b8ei267qaqiko"]
+[gd_scene load_steps=6 format=3 uid="uid://b8ei267qaqiko"]
 
 [ext_resource type="PackedScene" uid="uid://dit7frla46bek" path="res://player.tscn" id="1_5sinq"]
+[ext_resource type="Script" path="res://Enemy.gd" id="2_ys01d"]
+[ext_resource type="Texture2D" uid="uid://deqwq0xlj5w6y" path="res://Assets/Screenshot_2024-05-19_at_12.22.42_PM-removebg-preview.png" id="3_pqn4a"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tmeun"]
 size = Vector2(306, 141)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cchh8"]
+size = Vector2(35, 17)
 
 [node name="World" type="Node2D"]
 
@@ -13,8 +18,20 @@ size = Vector2(306, 141)
 position = Vector2(2, 60.5)
 shape = SubResource("RectangleShape2D_tmeun")
 
-[node name="Player" parent="." instance=ExtResource("1_5sinq")]
+[node name="Player" parent="." groups=["Player"] instance=ExtResource("1_5sinq")]
 position = Vector2(-24, -53)
 scale = Vector2(0.2, 0.2)
 
 [node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Enemy" type="Area2D" parent="."]
+script = ExtResource("2_ys01d")
+
+[node name="Sprite" type="Sprite2D" parent="Enemy"]
+position = Vector2(88, -85)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("3_pqn4a")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Enemy"]
+position = Vector2(87.5, -85)
+shape = SubResource("RectangleShape2D_cchh8")

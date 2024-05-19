@@ -26,3 +26,6 @@ func _physics_process(delta):
 		velocity.y -= JUMP_FORCE
 		$AnimatedSprite2D.play("Jump")
 		
+
+
+		
