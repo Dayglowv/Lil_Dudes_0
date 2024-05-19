@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://ccwi5u28y3sim"]
+[gd_scene load_steps=2 format=3 uid="uid://deq1sctonmkcc"]
 
-[ext_resource type="Texture2D" path="res://grey_cloudy_sky_background_pixel_art_by_gabruele_d6796mq-fullview.jpg" id="1_4xe8g"]
+[ext_resource type="Texture2D" uid="uid://bd8y01kclalfg" path="res://grey_cloudy_sky_background_pixel_art_by_gabruele_d6796mq-fullview.jpg" id="1_4xe8g"]
 
 [node name="Parallax" type="Node2D"]
 
