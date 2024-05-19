@@ -8,7 +8,7 @@
 size = Vector2(306, 141)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_cchh8"]
-size = Vector2(35, 17)
+size = Vector2(54, 44.5)
 
 [node name="World" type="Node2D"]
 
@@ -28,10 +28,10 @@ scale = Vector2(0.2, 0.2)
 script = ExtResource("2_ys01d")
 
 [node name="Sprite" type="Sprite2D" parent="Enemy"]
-position = Vector2(88, -85)
-scale = Vector2(0.1, 0.1)
+position = Vector2(98.5, -72.2)
+scale = Vector2(0.155263, 0.212281)
 texture = ExtResource("3_pqn4a")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Enemy"]
-position = Vector2(87.5, -85)
+position = Vector2(97, -71.25)
 shape = SubResource("RectangleShape2D_cchh8")
